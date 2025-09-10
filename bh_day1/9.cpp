@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+#include <cstdlib>
+#ifdef RUN_THIS_FILE
+
 
 int main()
 {
@@ -26,3 +29,4 @@ int main()
    system("pause");
    return 0;
 }
+#endif
