@@ -14,6 +14,7 @@ int main()
     char ch = 'H';//必须是单引号
     cout << "ch的大小：" << sizeof(ch) << endl;
     cout << ch << endl;
+    cout << (int)'a' << endl;
     cout << (int)'A' << endl;
     string cc = "amjdsbfjkd";
     cout << "cc的大小：" << sizeof(cc) << endl;

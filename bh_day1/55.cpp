@@ -3,7 +3,7 @@
 using namespace std;
 
 //目前阶段的占位参数还用不到，后面会用到
-//展位参数还可以有默认参数
+//占位参数还可以有默认参数
 void func(int = 10 ,int = 10)
 {
     cout << " This is a function." << endl;

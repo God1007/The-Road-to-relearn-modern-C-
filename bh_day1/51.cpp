@@ -21,8 +21,8 @@ int &test2()
 
 int main()
 {
-    //int &ref = test1();
-    //cout << ref << endl;
+    int &ref = test1();
+    cout << ref << endl;
     int &ref2 = test2();
     cout << ref2 << endl;
     test2() = 1000;

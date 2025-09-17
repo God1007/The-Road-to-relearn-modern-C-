@@ -15,7 +15,7 @@
 
 class Person{
 public:
-    //this指针的本质是指针常量，指针指向的值是不可以修改的！
+    //this指针的本质是指针常量，指针指向的地址是不可以修改的！
     // Person * const this ↑
     void showPerson() {
         //m_A = 100;//其实这行代码的本质是this->m_A
